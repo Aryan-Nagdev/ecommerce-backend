@@ -1,0 +1,9 @@
+Backend structure
+
+shopkaro-backend/
+├── server.js          ← All routes + main logic
+├── models.js          ← All 4 schemas (User, Product, Cart, Order)
+├── db.js              ← MongoDB connection
+├── seedProducts.js    ← Optional: Add 50+ real products
+├── .env
+└── package.json
